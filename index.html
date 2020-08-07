@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airbnb - Flexbox</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js"
+      integrity="sha256-HkXXtFRaflZ7gjmpjGQBENGnq8NIno4SDNq/3DbkMgo="
+      crossorigin="anonymous"
+    ></script>
+</head>
+<body>
+    <header>
+        <div class="container-full">
+            <div class="row">
+                <div class="column col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <div class="dflex">
+                        <div class="dflex flex-wwrap align-center">
+                            <img src="assets/images/logo-custom.svg" class="logo" alt="logo">
+                        </div>
+                        <div class="menu">
+                            <ul class="dflex">
+                                <li class="menu-active"><a href="#">Overview</a></li>
+                                <li><a href="#">Setup</a></li>
+                                <li><a href="#">Safety</a></li>
+                                <li><a href="#">Financials</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <button><a href="#">Get Started</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="section-banner">
+        <div class="container-full">
+            <div class="row">
+                <div class="column col-sm-12 col-md-12 col-lg-6"></div>
+                <div class="column col-sm-12 col-md-12 col-lg-6 dflex justify-center align-center">
+                    <div class="form-container">
+                        <form>
+                            <p class="form-title">Earn money as an Airbnb host</p>
+                            <p class="form-desc">Tell us a little about your place</p>
+                            <input type="text" class="form-input input-location" value="Metro Manila" />
+                            <select class="input-place form-input input-accomodation">
+                                <option>Entire place</option>
+                                <option>Private room</option>
+                                <option>Shared room</option>
+                            </select>
+                            <select class="input-guest form-input input-guest">
+                                <option>1 guest</option>
+                                <option>2 guests</option>
+                                <option>3 guests</option>
+                            </select>
+                            <input type="submit" value="Get Started" class="form-submit" />
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="section-banner-lower">
+        <div class="container">
+            <div class="row">
+                <div class="column col-sm-12 col-md-12 col-lg-6 col-xl-6 col2-h2-p">
+                    <h2>Why host on Airbnb?</h2>
+                    <p>
+                        No matter what kind of home or room you have to share, Airbnb makes it simple and secure to host travelers. You’re in full control of your availability, prices, house rules, and how you interact with guests.
+                    </p>
+                </div>
+                <div class="column col-sm-12 col-md-12 col-lg-6 col-xl-6 col2-h2-p">
+                    <h2>We have your back</h2>
+                    <p>
+                        To keep you, your home, and your belongings safe, we cover every booking with $1M USD in property damage protection and another $1M USD in insurance against accidents.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="section-hosting">
+        <div class="container">
+            <div class="row">
+                <div class="column col-sm-12">
+                    <hr>
+                    <div class="section-title">Hosting in 3 steps</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column col-sm-12 col-md-12 col-lg-4 col3-h2-p">
+                    <i class="far fa-check-circle hosting-icon"></i>
+                    <h2>List your space for free</h2>
+                    <p>Share any space without sign-up charges, from a shared living room to a second home and everything in-between.</p>
+                </div>
+                <div class="column col-sm-12 col-md-12 col-lg-4 col3-h2-p">
+                    <i class="far fa-check-circle hosting-icon"></i>
+                    <h2>Decide how you want to host</h2>
+                    <p>Choose your own schedule, prices, and requirements for guests. We’re there to help along the way.</p>
+                </div>
+                <div class="column col-sm-12 col-md-12 col-lg-4 col3-h2-p">
+                    <i class="far fa-check-circle hosting-icon"></i>
+                    <h2>Welcome your first guest</h2>
+                    <p>Once your listing is live, qualified guests can reach out. You can message them with any questions before their stay.</p>
+                    <p><a href="#" class="link">Learn how to start hosting</a></p>
+                </div>
+            </div>
+            <div class="row row-space">
+                <div class="column col-sm-12 col-md-6 col-lg-6 testimonial">
+                    <i class="fas fa-quote-left testimony-icon"></i>
+                    <div>
+                        <p class="msg">
+                            The Host Guarantee helped me decide to join Airbnb because I have it to fall back on if there's damage or problems.
+                        </p>
+                    </div>
+                    <div>
+                        <p class="author">
+                            Dennis hosts in London for the flexibility it provides
+                        </p>
+                    </div>
+                    <div>
+                        <button>Learn how they host</button>
+                    </div>
+                </div>
+                <div class="column col-sm-12 col-md-6 col-lg-6">
+                    <img src="assets/images/hosting-section.jpg" class="hosting-img" alt="hosting-testimonial-image">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="section-wgyc">
+        <div class="container">
+            <div class="row">
+                <div class="column col-sm-12">
+                    <hr>
+                    <div class="section-title">We’ve got you covered</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column col-sm-12 col-md-12 col-lg-6 col2-h2-p">
+                    <p>
+                        We know it’s a priority to trust the people staying in your home. Airbnb allows you to set strict requirements for who can book and to get to know guests before their stay.
+                    </p>
+                    <p>
+                        If something does come up, though, we have your back. With our Host Guarantee covering property damage and our Host Protection Insurance for liability, you’re supported as a host throughout.
+                    </p>
+                    <p>
+                        <a href="#" class="link">Learn how Airbnb protects hosts</a>
+                    </p>
+                </div>
+                <div class="column col-sm-12 col-md-12 col-lg-6 col2-h2-p">
+                    <p><i class="fas fa-check"></i> Ability to require government ID before booking</p>
+                    <p><i class="fas fa-check"></i> House Rules guests must agree to</p>
+                    <p><i class="fas fa-check"></i> Chance to read reviews from past trips</p>
+                    <p><i class="fas fa-check"></i> Free $1M protection for property damage</p>
+                    <p><i class="fas fa-check"></i> Free $1M liability insurance</p>
+                    <p><i class="fas fa-check"></i> 24/7 global customer support</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column col-sm-12 col-md-12 col-lg-12">
+                    <img src="assets/images/wevegotyoucovered.jpg" alt="weve-got-you-covered-image" class="wgyc-image">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="section-payments">
+        <div class="container">
+            <div class="row">
+                <div class="column col-sm-12">
+                    <hr>
+                    <div class="section-title">Payments made simple</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column col-sm-12 col-md-12 col-lg-4 col3-h2-p">
+                    <h2>Charge what you want</h2>
+                    <p>Once your listing is live, qualified guests can reach out. You can message them with any questions before their stay.</p>
+                </div>
+                <div class="column col-sm-12 col-md-12 col-lg-4 col3-h2-p">
+                    <h2>Pay low fees</h2>
+                    <p>There’s no cost to sign up. Airbnb generally charges hosts a flat 3% per reservation, among the lowest fees in the industry.</p>
+                </div>
+                <div class="column col-sm-12 col-md-12 col-lg-4 col3-h2-p">
+                    <h2>Get paid quickly</h2>
+                    <p>Once a guest checks in, we can send your money by Paypal, direct deposit, or other available methods.</p>
+                    <a href="#" class="link">Learn how to make money on Airbnb</a>
+                </div>
+            </div>
+            <div class="row flex-drow-rev row-space">
+                <div class="column col-sm-12 col-md-6 col-lg-6 testimonial payment-testimonial">
+                    <i class="fas fa-quote-left testimony-icon"></i>
+                    <p class="msg">
+                        Hosting has helped me pay for a new kitchen and other upgrades.
+                    </p>
+                    <p class="author">
+                        Tessa hosts in London to earn extra money
+                    </p>
+                    <div>
+                        <button>Learn how they host</button>
+                    </div>
+                </div>
+                <div class="column col-sm-12 col-md-6 col-lg-6">
+                    <img src="assets/images/payment-section.jpg" class="payment-img" alt="wgyc-testimonial-image">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="section-hosts">
+        <div class="container">
+            <div class="row">
+                <div class="column col-sm-12">
+                    <hr>
+                    <div class="section-title">Hosts like you, worldwide</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column col-sm-12 col-md-4 col-lg-4 col-xl-4 dflex flex-dcolumn align-center">
+                    <p class="host-number">2.9M</p>
+                    <p class="center">Hosts on Airbnb</p>
+                </div>
+                <div class="column col-sm-12 col-md-4 col-lg-4 col-xl-4 dflex flex-dcolumn align-center">
+                    <p class="host-number">800K</p>
+                    <p class="center">Average Airbnb stays each night</p>
+                </div>
+                <div class="column col-sm-12 col-md-4 col-lg-4 col-xl-4 dflex flex-dcolumn align-center">
+                    <p class="host-number">14K</p>
+                    <p class="center">New hosts per month</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="section-about">
+        <div class="container">
+            <div class="row">
+                <div class="column col-sm-12">
+                    <hr>
+                    <div class="section-title">About Airbnb</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column col-sm-12 col-md-12 col-lg-6 col-xl-6 col2-h2-p">
+                    <h2>What is Airbnb?</h2>
+                    <p>
+                        Airbnb connects people with places to stay and things to do around the world. The community is powered by hosts, who provide their guests with the unique opportunity to travel like a local.
+                    </p>
+                </div>
+                <div class="column col-sm-12 col-md-12 col-lg-6 col-xl-6 col2-h2-p">
+                    <h2>What is hosting?</h2>
+                    <p>
+                        If you have an extra room, entire home, or expertise, you can earn money by sharing it with anyone in the world. You can host your home, activity, or do both. When you host is up to you.
+                    </p>
+                    <a href="#" class="link">Learn more about experience hosting</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="section-faq">
+        <div class="container"> 
+            <div class="row">
+                <div class="column col-sm-12">
+                    <hr>
+                    <div class="section-title">Frequently asked questions</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column col-sm-12 col-md-12 col-lg-6">
+                    <p class="faq-item"><a href="#" >Who can be an Airbnb host?</a></p>
+                    <p class="faq-item"><a href="#" >What is required of guests before booking?</a></p>
+                    <p class="faq-item"><a href="#" >How much does it cost to list my space?</a></p>
+                </div>
+                <div class="column col-sm-12 col-md-12 col-lg-6">
+                    <p class="faq-item"><a href="#" >What protection do I have against property damage?</a></p>
+                    <p class="faq-item"><a href="#" >How should I choose my listing’s price?</a></p>
+                    <p class="faq-item"><a href="#" >How can Airbnb help me with setting prices?</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="section-more">
+        <div class="container">
+            <div class="row">
+                <div class="column col-sm-12 col-md-12 col-lg-12">
+                    <p class="more-title">More about hosting</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                    <div class="more-item">
+                        <img src="assets/images/more-section-1.jpg">
+                        <div class="more-texts">
+                            <p class="more-item-title">Setup</p>
+                            <p>How to start hosting</p>
+                            <a href="#" class="link">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="column col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                    <div class="more-item">
+                        <img src="assets/images/more-section-2.jpg">
+                        <div class="more-texts">
+                            <p class="more-item-title">Safety</p>
+                            <p>How Airbnb protects hosts</p>
+                            <a href="#" class="link">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="column col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                    <div class="more-item">
+                        <img src="assets/images/more-section-3.jpg">
+                        <div class="more-texts">
+                            <p class="more-item-title">Financials</p>
+                            <p>How you make money on Airbnb</p>
+                            <a href="#" class="link">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="section-fbanner">
+        <div class="container-full">
+            <div class="row">
+                <div class="column col-sm-12 col-md-12 col-lg-12">
+                    <div>
+                        <p>Ready to earn?</p>
+                    </div>
+                    <div>
+                        <button><a href="#">Get Started</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container-full">
+            <div class="row">
+                <div class="column col-sm-12 col-md-6 col-lg-3 footer-links">
+                    <p class="footer-col-title">About</p>
+                    <ul>
+                        <li><a href="#">How Airbnb works</a></li>
+                        <li><a href="#">Diversity & Belonging</a></li>
+                        <li><a href="#">Against Discrimination</a></li>
+                        <li><a href="#">Accessibility</a></li>
+                        <li><a href="#">Trust & Safety</a></li>
+                        <li><a href="#">Airbnb Citizen</a></li>
+                        <li><a href="#">Olympics</a></li>
+                        <li><a href="#">Newsroom</a></li>
+                    </ul>
+                </div>
+                <div class="column col-sm-12 col-md-6 col-lg-3 footer-links">
+                    <p class="footer-col-title">Community</p>
+                    <ul>
+                        <li><a href="#">Airbnb Magazine</a></li>
+                        <li><a href="#">Airbnb Associates</a></li>
+                        <li><a href="#">Airbnb for Work</a></li>
+                        <li><a href="#">Invite friends</a></li>
+                        <li><a href="#">Gift cards</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="column col-sm-12 col-md-6 col-lg-3 footer-links">
+                    <p class="footer-col-title">Host</p>
+                    <ul>
+                        <li><a href="#">Host your home</a></li>
+                        <li><a href="#">Host an online experience</a></li>
+                        <li><a href="#">Message from CEO Brian Chesky</a></li>
+                        <li><a href="#">Responsible hosting</a></li>
+                        <li><a href="#">Open Homes</a></li>
+                        <li><a href="#">Resource Center</a></li>
+                        <li><a href="#">Community Center</a></li>
+                    </ul>
+                </div>
+                <div class="column col-sm-12 col-md-6 col-lg-3 footer-links">
+                    <p class="footer-col-title">Support</p>
+                    <ul>
+                        <li><a href="#">Updates for COVID-19</a></li>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Cancellation options</a></li>
+                        <li><a href="#">Neighborhood Support</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row footer-bottom">
+                <div class="column col-sm-12 col-md-12 col-lg-12">
+                    <div class="footer-copyright">
+                        <p>&copy; 2020 Airbnb, Inc. All rights reserved</p>
+                    </div>
+                    <div class="footer-bottom-links">
+                        <ul>
+                            <li><i class="fas fa-circle ficon first"></i><a href="#">Privacy</a></li>
+                            <li><i class="fas fa-circle ficon"></i><a href="#">Terms</a></li>
+                            <li><i class="fas fa-circle ficon"></i><a href="#">Sitemap</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-currency">
+                        <i class="fas fa-globe"></i> <a href="#">English (US)</a>
+                        <a href="#">₱ PHP</a>
+                    </div>
+                    <div class="footer-icons">
+                        <i class="fab fa-facebook-f ficon"></i>
+                        <i class="fab fa-twitter ficon"></i>
+                        <i class="fab fa-instagram-square ficon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
