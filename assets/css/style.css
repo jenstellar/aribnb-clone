@@ -255,7 +255,7 @@ header button a {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    object-fit: cover;
+    height: 600px;
 }
 
 /* .form-container {
